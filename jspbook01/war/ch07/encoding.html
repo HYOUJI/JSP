@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>인코딩 방식의 차이점</title>
+</head>
+<body>
+<h2>인코딩 방식: application/x-www-form-urlencoded</h2>
+<form action="upload.jsp" method="post">
+Name: <input type="text" name="name"> <br>
+Age: <input type="text" name="age"> <br>
+File: <input type="file" name="file"> <br>
+<input type="submit" value="SUBMIT">
+</form>
+<hr/>
+<h2>인코딩 방식: multipart/form-data</h2>
+<form action="upload.jsp" method="post" enctype="multipart/form-data">
+Name: <input type="text" name="name"> <br>
+Age: <input type="text" name="age"> <br>
+File: <input type="file" name="file"> <br>
+<input type="submit" value="SUBMIT">
+</form>
+</body>
+</html>

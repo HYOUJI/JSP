@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Jspbook01</servlet-name>
+		<servlet-class>taco.Jspbook01Servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>taco.Upload</servlet-class>
+	</servlet>
+	
+	<servlet>
+	<servlet-name>Serve</servlet-name>
+	<servlet-class>taco.Serve</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Jspbook01</servlet-name>
+		<url-pattern>/jspbook01</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	<servlet-name>Upload</servlet-name>
+	<url-pattern>/upload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	<servlet-name>Serve</servlet-name>
+	<url-pattern>/serve</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>readInitParamJSP</servlet-name>
+	<jsp-file>/ch08/readInitParam.jsp</jsp-file>
+	<init-param>
+	<param-name>e-mail</param-name>
+	<param-value>mechuri13@gmail.com</param-value>
+	</init-param>
+	<init-param>
+	<param-name>emailHost</param-name>
+	<param-value>151.68.167.201</param-value>
+	</init-param>
+	<init-param>
+	<param-name>webMaster</param-name>
+	<param-value>Youji : 1391045</param-value>
+	</init-param>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>readInitParamJSP</servlet-name>
+	<url-pattern>/ch08/readParam.jsp</url-pattern>
+	</servlet-mapping>
+		
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

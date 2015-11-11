@@ -1,0 +1,24 @@
+INDEX VERSION 1.127+C:\Users\multimedia\workspace\jspbook01\.metadata\.plugins\org.eclipse.jdt.core
+4180443136.index
+139675391.index
+1953481010.index
+3518496317.index
+3062406045.index
+3013221821.index
+4140462341.index
+1496265168.index
+1485213504.index
+772007494.index
+2013602253.index
+1694405621.index
+3476496898.index
+644732506.index
+3034806749.index
+3601385926.index
+1171862408.index
+1973377806.index
+49127654.index
+1005797327.index
+229017460.index
+1879634120.index
+3585727801.index
